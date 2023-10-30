@@ -95,8 +95,12 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404bbf;
+  color: #2e2f42;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-color {
+  color: #404bbf;
 }
 
 .nav-hover:hover,
@@ -104,7 +108,7 @@ p {
   color: #404bbf;
 }
 
-.riska::after {
+.nav-activ::after {
   position: absolute;
   content: '';
   bottom: -1px;
@@ -218,7 +222,6 @@ p {
   height: 112px;
   border-radius: 4px;
   border: 1px solid #8e8f99;
-  padding: 24px 100px;
   margin-bottom: 8px;
   background: #f4f4fd;
 }
@@ -355,7 +358,6 @@ p {
 .portfolio-container-text {
   border: 1px solid #e7e9fc;
   padding: 32px 16px;
-  margin-bottom: 8px;
   border-top: none;
 }
 
@@ -444,6 +446,13 @@ p {
 
 .logo-footer {
   display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
   margin-bottom: 16px;
 }
 
@@ -453,7 +462,6 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-top: 16px;
 }
 
 .social-list-flax {
@@ -462,6 +470,11 @@ p {
 
 .social-flax {
   gap: 16px;
+}
+
+.list-footer-social-link {
+  width: 40px;
+  height: 40px;
 }
 
 .foter-social-link {
