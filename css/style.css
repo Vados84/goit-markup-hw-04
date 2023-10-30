@@ -421,7 +421,6 @@ p {
   gap: 16px;
 }
 
-.social-list-hover:hover,
-.social-list-hover:focus {
-  background-color: #06644d;
-}
+.foter-social-link:hover,
+.foter-social-link:focus {
+    background-color: #31D0AA;
